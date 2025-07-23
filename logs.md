@@ -1,4 +1,4 @@
-## Version 6.5.5 (17-06-2025)
+### Version 6.5.5 (17-06-2025)
 ##### <li class="red-text">Fixed issues in Due Payment settlement of Storage Group Booking when adding a partial payment.</li>
 ##### <li class="red-text">Minor bug fix.</li>
 ##### <li class="green-text">New Feature: Adding Group Booking Statement report generator button.</li>
