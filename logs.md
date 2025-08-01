@@ -1,3 +1,8 @@
+### Version 6.5.6 (01-08-2025)
+##### <li class="red-text">Fixed issue of normalizing cubicle ledger in group booking, now each cubicle will have its own ledger without settlement transactions.</li>
+
+---
+
 ### Version 6.5.5 (17-06-2025)
 ##### <li class="red-text">Fixed issues in Due Payment settlement of Storage Group Booking when adding a partial payment.</li>
 ##### <li class="red-text">Minor bug fix.</li>
