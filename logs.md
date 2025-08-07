@@ -1,3 +1,8 @@
+### Version 6.5.7 (08-08-2025)
+##### <li class="green-text">Performance improvements.</li></li>
+
+---
+
 ### Version 6.5.6 (01-08-2025)
 ##### <li class="red-text">Fixed issue of normalizing cubicle ledger in group booking, now each cubicle will have its own ledger without settlement transactions.</li>
 
