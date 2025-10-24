@@ -1,3 +1,10 @@
+### Version 6.6.0 (24-10-2025)
+##### <li class="red-text">Minor bug fix.</li>
+##### <li class="green-text">Libraries and Security updates.</li>
+##### <li class="green-text">Stability and Performance improvements.</li>
+
+---
+
 ### Version 6.5.7 (08-08-2025)
 ##### <li class="green-text">Performance improvements.</li></li>
 
