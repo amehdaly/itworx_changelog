@@ -1,3 +1,8 @@
+### Version 6.6.1 (10-11-2025)
+##### <li class="red-text">Resolved an issue where some email messages appeared with a black background in the preview window. The viewer now enforces a light color scheme and consistent white background for all emails.</li>
+
+---
+
 ### Version 6.6.0 (24-10-2025)
 ##### <li class="red-text">Minor bug fix.</li>
 ##### <li class="green-text">Libraries and Security updates.</li>
