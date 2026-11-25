@@ -1,3 +1,15 @@
+### Version 6.6.2 (25-11-2026)
+### <p class="red-text">Security & Maintenance Update</p>
+
+- Enhanced SQL Server connection security and authentication management.
+- Improved secure remote database configuration handling.
+- Updated application dependencies to address known security vulnerabilities.
+- General security, stability and reliability improvements.
+
+<p class="red-text">All users are strongly encouraged to install this update to ensure continued secure and reliable operation.</p>
+
+---
+
 ### Version 6.6.1 (10-11-2025)
 ##### <li class="red-text">Resolved an issue where some email messages appeared with a black background in the preview window. The viewer now enforces a light color scheme and consistent white background for all emails.</li>
 
