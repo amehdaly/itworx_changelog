@@ -2,12 +2,12 @@
 
 ## <p class="red-text">Security & Maintenance Update</p>
 
-##### <li class="green-text">Enhanced SQL Server connection security and authentication management.</li>
-##### <li class="green-text">Improved secure remote database configuration handling.</li>
-##### <li class="green-text">Updated application dependencies to address known security vulnerabilities.</li>
-##### <li class="green-text">General security, stability and reliability improvements.</li>
+##### <li class="green-text" style="margin-left: 50px;">Enhanced SQL Server connection security and authentication management.</li>
+##### <li class="green-text" style="margin-left: 50px;">Improved secure remote database configuration handling.</li>
+##### <li class="green-text" style="margin-left: 50px;">Updated application dependencies to address known security vulnerabilities.</li>
+##### <li class="green-text" style="margin-left: 50px;">General security, stability and reliability improvements.</li>
 
-<p class="red-text">All users are strongly encouraged to install this update to ensure continued secure and reliable operation.</p>
+#### <p class="red-text">All users are strongly encouraged to install this update to ensure continued secure and reliable operation.</p>
 
 ---
 
