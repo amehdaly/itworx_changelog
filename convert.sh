@@ -30,3 +30,5 @@ trap 'rm -f -- "$temp_file"' EXIT
 monolith --quiet --output "$temp_file" "$input"
 chmod --reference="$output" "$temp_file"
 mv -f -- "$temp_file" "$output"
+
+find "$script_dir/bss_export" -mindepth 1 -maxdepth 1 -exec rm -rf -- {} +
