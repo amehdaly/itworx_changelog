@@ -1,6 +1,6 @@
 ### Version 6.6.3 (25-11-2026)
-##### <li class="green-text">Performance improvements.</li>
-##### <li class="green-text">Libraries and Security updates.</li>
+##### <li class="green-text" style="margin-left: 40px;">Performance improvements.</li>
+##### <li class="green-text" style="margin-left: 40px;">Libraries and Security updates.</li>
 
 ---
 
