@@ -1,11 +1,17 @@
+### Version 6.6.3 (25-11-2026)
+##### <li class="green-text">Performance improvements.</li>
+##### <li class="green-text">Libraries and Security updates.</li>
+
+---
+
 ### Version 6.6.2 (25-11-2026)
 
 ## <p class="red-text">Security & Maintenance Update</p>
 
-##### <li class="green-text" style="margin-left: 50px;">Enhanced SQL Server connection security and authentication management.</li>
-##### <li class="green-text" style="margin-left: 50px;">Improved secure remote database configuration handling.</li>
-##### <li class="green-text" style="margin-left: 50px;">Updated application dependencies to address known security vulnerabilities.</li>
-##### <li class="green-text" style="margin-left: 50px;">General security, stability and reliability improvements.</li>
+##### <li class="green-text" style="margin-left: 40px;">Enhanced SQL Server connection security and authentication management.</li>
+##### <li class="green-text" style="margin-left: 40px;">Improved secure remote database configuration handling.</li>
+##### <li class="green-text" style="margin-left: 40px;">Updated application dependencies to address known security vulnerabilities.</li>
+##### <li class="green-text" style="margin-left: 40px;">General security, stability and reliability improvements.</li>
 
 #### <p class="red-text">All users are strongly encouraged to install this update to ensure continued secure and reliable operation.</p>
 
@@ -24,7 +30,7 @@
 ---
 
 ### Version 6.5.7 (08-08-2025)
-##### <li class="green-text">Performance improvements.</li></li>
+##### <li class="green-text">Performance improvements.</li>
 
 ---
 
