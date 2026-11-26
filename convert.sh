@@ -16,7 +16,8 @@ EOF
 fi
 
 script_dir="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
-input="$script_dir/changelog.html"
+input="$script_dir/bss_export/changelog.html"
+output="$script_dir/changelog.html"
 
 if [[ ! -f "$input" ]]; then
   printf 'Error: %s not found\n' "$input" >&2
@@ -27,5 +28,5 @@ temp_file="$(mktemp "$script_dir/.changelog.html.XXXXXX")"
 trap 'rm -f -- "$temp_file"' EXIT
 
 monolith --quiet --output "$temp_file" "$input"
-chmod --reference="$input" "$temp_file"
-mv -f -- "$temp_file" "$input"
+chmod --reference="$output" "$temp_file"
+mv -f -- "$temp_file" "$output"
