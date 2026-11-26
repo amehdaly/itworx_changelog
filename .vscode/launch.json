@@ -1,0 +1,13 @@
+{
+   "version": "0.2.0",
+   "configurations": [
+      {
+         "name": "Debug convert.sh",
+         "type": "bashdb",
+         "request": "launch",
+         "program": "${workspaceFolder}/convert.sh",
+         "cwd": "${workspaceFolder}",
+         "terminalKind": "integrated"
+      }
+   ]
+}
