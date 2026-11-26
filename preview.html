@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>Changelog Preview</title>
+   <style>
+      html,
+      body,
+      #preview {
+         width: 100%;
+         height: 100%;
+         margin: 0;
+      }
+
+      #preview {
+         display: block;
+         border: 0;
+      }
+
+      #status {
+         position: fixed;
+         inset: 0;
+         display: grid;
+         place-items: center;
+         padding: 1rem;
+         color: #333;
+         background: #fff;
+         font: 16px/1.5 system-ui, sans-serif;
+      }
+
+      #status[hidden] {
+         display: none;
+      }
+   </style>
+</head>
+<body>
+   <div id="status" role="status">Loading changelog…</div>
+   <iframe id="preview" title="Remote changelog" sandbox="allow-scripts" hidden></iframe>
+   <script>
+      const sourceUrl = "https://raw.githubusercontent.com/amehdaly/itworx_changelog/refs/heads/main/changelog.html";
+      const status = document.getElementById("status");
+      const preview = document.getElementById("preview");
+
+      async function loadPreview() {
+         try {
+            const response = await fetch(sourceUrl, { cache: "no-store" });
+            if (!response.ok) throw new Error(`Request failed (${response.status})`);
+
+            let html = await response.text();
+            const baseUrl = new URL(".", sourceUrl).href;
+            const baseTag = `<base href="${baseUrl}">`;
+            if (/<head(?:\s[^>]*)?>/i.test(html)) {
+               html = html.replace(/<head(?:\s[^>]*)?>/i, (head) => `${head}${baseTag}`);
+            } else {
+               html = `${baseTag}${html}`;
+            }
+
+            preview.addEventListener("load", () => {
+               preview.hidden = false;
+               status.hidden = true;
+            }, { once: true });
+            preview.srcdoc = html;
+         } catch (error) {
+            status.textContent = `Could not load the changelog: ${error.message}`;
+         }
+      }
+
+      loadPreview();
+   </script>
+</body>
+</html>
