@@ -2,6 +2,24 @@
    "version": "2.0.0",
    "tasks": [
       {
+         "label": "Open changelog.bsdesign in Bootstrap Studio",
+         "type": "process",
+         "command": "/mnt/F/ArchLinks/AppImages/Bootstrap Studio.AppImage",
+         "args": [
+            "${workspaceFolder}/changelog.bsdesign"
+         ],
+         "problemMatcher": [],
+         "group": {
+            "kind": "build",
+            "isDefault": false
+         },
+         "presentation": {
+            "reveal": "never",
+            "panel": "dedicated",
+            "focus": false
+         }
+      },
+      {
          "label": "Run convert.sh without debugger",
          "type": "process",
          "command": "${workspaceFolder}/convert.sh",
