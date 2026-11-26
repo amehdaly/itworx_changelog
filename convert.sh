@@ -16,7 +16,7 @@ EOF
 fi
 
 script_dir="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
-input="$script_dir/bss_export/changelog.html"
+input="$script_dir/bss_export/index.html"
 output="$script_dir/changelog.html"
 
 if [[ ! -f "$input" ]]; then
